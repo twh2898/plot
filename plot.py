@@ -59,14 +59,15 @@ if __name__ == '__main__':
                         action='store_true',
                         help='Use the first row as column headers')
     parser.add_argument('-x',
-                        help='Column number (or name if -h is given) \
-                            to use for the x axis. If no x is provided use the\
-                            row number.')
+                        help='Column number starting at 1 or name if -h is \
+                            given to use for the x axis. If no x is provided \
+                            use the row number.')
     parser.add_argument('file',
                         help='CSV file to plot')
     parser.add_argument('column',
                         nargs='+',
-                        help='Column number (or name if -h) to plot')
+                        help='Column number starting at 1 or name if -h is \
+                            given to plot')
 
     args = parser.parse_args()
 
