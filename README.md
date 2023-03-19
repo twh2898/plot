@@ -55,3 +55,8 @@ Example Commands:
 | -------------------------- | ------------------------------------------------- |
 | `plot data.csv -x foo bar` | Plot columns 2 using column 1 as the x axis       |
 | `plot data.csv baz`        | Plot columns 3 using the row number as the x axis |
+
+## License
+
+ This project uses the [MIT](License) license.
+ 
