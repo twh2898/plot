@@ -30,17 +30,18 @@ options:
 
 `data.csv` with the following table
 
-| 1   | 4   | 7   |
+|     |     |     |
 | --- | --- | --- |
+| 1   | 4   | 7   |
 | 2   | 5   | 8   |
 | 3   | 6   | 9   |
 
 Example Commands:
 
-| command                  | description                                             |
-| ------------------------ | ------------------------------------------------------- |
-| `plot data.csv -x 1 2 3` | Plot columns 2 and 3 using column 1 as the x axis       |
-| `plot data.csv 1 2`      | Plot columns 1 and 2 using the row number as the x axis |
+| command                  | description                                              |
+| ------------------------ | -------------------------------------------------------- |
+| `plot data.csv -x 1 2 3` | Plot columns 2 and 3 using column 1 as the x axis        |
+| `plot data.csv 1 2`      | Plot  columns 1 and 2 using the row number as the x axis |
 
 `data.csv` with the following table
 
@@ -51,10 +52,10 @@ Example Commands:
 
 Example Commands:
 
-| command                    | description                                       |
-| -------------------------- | ------------------------------------------------- |
-| `plot data.csv -x foo bar` | Plot columns 2 using column 1 as the x axis       |
-| `plot data.csv baz`        | Plot columns 3 using the row number as the x axis |
+| command                       | description                                         |
+| ----------------------------- | --------------------------------------------------- |
+| `plot data.csv -H -x foo bar` | Plot columns bar using column foo as the x axis     |
+| `plot data.csv -H baz`        | Plot columns baz using the row number as the x axis |
 
 ## License
 
