@@ -59,7 +59,7 @@ if __name__ == '__main__':
                         action='store_true',
                         help='Use the first row as column headers')
     parser.add_argument('-x',
-                        help='Column number starting at 1 or name if -h is \
+                        help='Column number starting at 1 or name if -H is \
                             given to use for the x axis. If no x is provided \
                             use the row number.')
     parser.add_argument('file',
