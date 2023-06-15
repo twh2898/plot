@@ -22,8 +22,8 @@ positional arguments:
 options:
   -h, --help    show this help message and exit
   -H, --header  Use the first row as column headers
-  -x X          Column number starting at 1 or name if -h is given to use for
-                the x axis. If no x is provided use the row number.
+  -x X          Column number starting at 1 or name if -h is given to use for the x axis. If no x is
+                provided use the row number.
 ```
 
 ### Examples
